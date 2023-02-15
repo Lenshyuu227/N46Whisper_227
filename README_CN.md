@@ -20,7 +20,7 @@ N46Whisper 是基于 Google Colab 的应用。开发初衷旨在提高乃木坂4
 * model增加了large-v2选项（为可能的v3占位）。
 * 修改了可供选择的ass样式，增加了“227CN”样式。
 * 其它一些链接地址之类的修改。
-* 关于这个folk有任何的建议或意见请提出issue或者[联系我](mailto:kakiharuka@lenshyuu.com)
+* 关于这个Fork有任何的建议或意见请提出issue或者[联系我](mailto:kakiharuka@lenshyuu.com)
 
 ## 如何使用
 * [点击这里](https://colab.research.google.com/github/Lenshyuu227/N46Whisper_227/blob/main/N46Whisper.ipynb) 在Google Colab中打开应用.
