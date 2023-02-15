@@ -16,8 +16,14 @@ N46Whisper 是基于 Google Colab 的应用。开发初衷旨在提高乃木坂4
 * 添加了允许用户从挂载的谷歌云盘中直接选择要转换的文件的功能。本地上传文件的选项仍然保留。
 * 修订文档以及其它一些优化。
 
+2023.2.15（@Lenshyuu227）：
+* model增加了large-v2选项（为可能的v3占位）。
+* 修改了可供选择的ass样式，增加了“227CN”样式。
+* 其它一些链接地址之类的修改。
+* 关于这个folk有任何的建议或意见请提出issue或者[联系我](mailto:kakiharuka@lenshyuu.com)
+
 ## 如何使用
-* [点击这里](https://colab.research.google.com/github/Ayanaminn/N46Whisper/blob/main/N46Whisper.ipynb) 在Google Colab中打开应用.
+* [点击这里](https://colab.research.google.com/github/Lenshyuu227/N46Whisper_227/blob/main/N46Whisper.ipynb) 在Google Colab中打开应用.
 * 上传要识别的文件并运行应用
 * 识别完成后ass文件会自动下载到本地.
 
