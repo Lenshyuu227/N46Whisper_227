@@ -20,7 +20,7 @@ The output file will be in .ass format with built-in style of selected sub group
 * Add large-v2 option.
 * Add '227CN' Styles。
 * Modify links。
-* If you have any thoughts, requests or questions that directly related to this Fork, please feel free to post issues here or[Contact Me](mailto:kakiharuka@lenshyuu.com)
+* If you have any thoughts, requests or questions that directly related to this Fork, please feel free to post issues here or [Contact Me](mailto:kakiharuka@lenshyuu.com)
 
 ## How to use
 * [Click here](https://colab.research.google.com/github/Lenshyuu227/N46Whisper_227/blob/main/N46Whisper.ipynb) to open the notebook in Google Colab.
