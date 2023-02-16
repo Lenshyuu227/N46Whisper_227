@@ -22,6 +22,11 @@ N46Whisper 是基于 Google Colab 的应用。开发初衷旨在提高乃木坂4
 * 其它一些链接地址之类的修改。
 * 关于这个Fork有任何的建议或意见请提出issue或者[联系我](mailto:kakiharuka@lenshyuu.com)
 
+2023.2.17 (@Lenshyuu227)：
+* 增加了srtass_test.ipynb（srtass的本地测试用代码）。
+* 增加了testData（srtass的本地测试用数据）。
+* 修改了srtass.py以对存在空格的行实施分割。分割后的若干行均临时采用相同时间戳，且添加了adjust_required标记提示调整时间戳避免叠轴
+
 ## 如何使用
 * [点击这里](https://colab.research.google.com/github/Lenshyuu227/N46Whisper_227/blob/main/N46Whisper.ipynb) 在Google Colab中打开应用.
 * 上传要识别的文件并运行应用

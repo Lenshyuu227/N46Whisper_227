@@ -70,7 +70,12 @@ def srt2ass(input_file,sub_style):
                     tmpLines += 'Dialogue: 0,' + line + ',Default_1080卫星,,0,0,0,,'
             else:
                 if lineCount < 2:
-                    tmpLines += line
+                    # line = line.replace(' ', r'\n')
+                    dialogue = tmpLines
+                    if len(line.split()) > 1:
+                        tmpLines += line.replace(' ', "(adjust_required)\n" + dialogue)
+                    else:
+                        tmpLines += line
                 else:
                     tmpLines += "\n" + line
             lineCount += 1

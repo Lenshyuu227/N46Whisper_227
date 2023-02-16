@@ -18,9 +18,14 @@ The output file will be in .ass format with built-in style of selected sub group
 
 2023.2.15（@Lenshyuu227）：
 * Add large-v2 option.
-* Add '227CN' Styles。
-* Modify links。
+* Add '227CN' Styles.
+* Modify links.
 * If you have any thoughts, requests or questions that directly related to this Fork, please feel free to post issues here or [Contact Me](mailto:kakiharuka@lenshyuu.com)
+
+2023.2.17 (@Lenshyuu227)：
+* Add srtass_test.ipynb (for srtass test in local environment).
+* Add testData folder (test data for srtass).
+* Modify srtass.py to split lines with spaces. Those splited lines all use the same time stamp, with 'adjust_required' label to remind users to adjust the time stamps while editing the subtitle file to avoid overlapping.
 
 ## How to use
 * [Click here](https://colab.research.google.com/github/Lenshyuu227/N46Whisper_227/blob/main/N46Whisper.ipynb) to open the notebook in Google Colab.
