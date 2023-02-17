@@ -27,7 +27,7 @@ def fileopen(input_file):
     return [tmp, enc]
 
 
-def srt2ass(input_file,sub_style):
+def srt2ass(input_file,sub_style, split):
     if '.ass' in input_file:
         return input_file
 
@@ -70,9 +70,8 @@ def srt2ass(input_file,sub_style):
                     tmpLines += 'Dialogue: 0,' + line + ',Default_1080卫星,,0,0,0,,'
             else:
                 if lineCount < 2:
-                    # line = line.replace(' ', r'\n')
                     dialogue = tmpLines
-                    if len(line.split()) > 1:
+                    if len(line.split()) > 1 and split == "Yes":
                         tmpLines += line.replace(' ', "(adjust_required)\n" + dialogue)
                     else:
                         tmpLines += line
