@@ -6,7 +6,7 @@
 
 import sys
 import os
-import regex as re
+import re
 import codecs
 
 
@@ -106,9 +106,9 @@ def srt2ass(input_file,sub_style, is_split, split_method):
     # subLines = re.sub(r'</font>', "", subLines)
 
     if sub_style == 'default':
-        head_str = head_str_default
+        head_name = 'head_str_default'
     elif sub_style == '227CN':
-        head_str = head_str_227
+        head_name = 'head_str_227'
 
     head_str = STYLE_DICT.get(head_name)
     output_str = utf8bom + head_str + '\n' + subLines
